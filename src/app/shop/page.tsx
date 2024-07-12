@@ -145,9 +145,9 @@ const ShopPage = () => {
               <div className="flex justify-center">
                 <h3 className="font-medium text-indigo-300 text-lg">
                   {myProductCount !== undefined && myProductCount > 0 ? (
-                    <span>You've added {myProductCount}!</span>
+                    <span>You&lsquo;ve added {myProductCount}!</span>
                   ) : (
-                    <span>You haven't made a purchase yet :(</span>
+                    <span>You haven&lsquo;t made a purchase yet :(</span>
                   )}
                 </h3>
               </div>
