@@ -42,7 +42,7 @@ const abi = [
 const shopifireContract = (web3) => {
   return new web3.eth.Contract(
     abi,
-    "0x94b99e337f61444999f71cfbbaa8a2cb4e274ec4"
+    "0x8b3Cd765bC40fEA4170e0ea836f744b5243d923F"
   );
 };
 
