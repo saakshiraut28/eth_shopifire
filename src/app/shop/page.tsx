@@ -5,7 +5,7 @@ import Web3 from "web3";
 import shopifireContract from "../../../blockchain/shopifire";
 import { AbiItem } from "web3-utils";
 import Image from "next/image";
-import Flower from "../../assets/flower.jpg";
+import Nft from "../../assets/nft.png";
 
 declare global {
   interface Window {
@@ -153,14 +153,16 @@ const ShopPage = () => {
               </div>
               <div className="flex flex-col justify-center items-center gap-2 m-3 p-3 border rounded-lg">
                 <Image
-                  src={Flower}
+                  src={Nft}
                   width={200}
                   height={200}
                   alt="Product Image"
                   className="rounded-md aspect-square object-cover"
                 />
                 <div className="text-center">
-                  <h3 className="font-medium text-lg">Product: Flower</h3>
+                  <h3 className="font-medium text-lg">
+                    This is just a sample image
+                  </h3>
                   <h3 className="font-medium text-md">
                     Available Balance:{" "}
                     {inventory !== undefined ? (
